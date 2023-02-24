@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/calculadora.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="logo">Calculadora Plazo fijo</h1>
+    </header>
+    <main>
+        <div id="inputCalculadora">
+            <form id="formCalculadora" action="">
+                <label for="i1">Dinero a calcular</label>
+                <input id="inputDinero" type="number" step="0.01" form="i1">
+                <label for="i2">Tasa anual %</label>
+                <input id="inputTasa" type="number" form="i2">
+                <label for="i3">plazo (en dias)</label>
+                <input id="inputDias" type="number" form="i3">
+                <button type="button" id="btnCalcular">Calcular!</button>
+            </form>
+        </div>
+        <div id="outPutCalculadora">
+            <p id="p1"></p>
+            <p id="p2">El interes a devengar sera:$ </p>
+            <button for="formCalculadora" type="reset" id="btnReiniciar">Realizar otro calculo</button>
+        </div>
+    </main>
+    <footer>
+        <p>Hecho por Martin Fernanez</p>
+        <nav>
+            <a id="linkedin" href="https://www.linkedin.com/in/martin-fernandez-1b1965220/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a id="git" href="https://github.com/Chiino147/Alura-Challenge1" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+        </nav>
+    </footer>
+    <script src="./src/js/calculadora.js"></script>
+    <script src="https://kit.fontawesome.com/f6f899d5f4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

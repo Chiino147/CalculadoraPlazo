@@ -1,0 +1,92 @@
+#inputCalculadora {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    width: 100vh;
+    height: 79vh;
+    border: 2px;
+    border-radius: 46px;
+    border-style: solid;
+}
+
+#formCalculadora {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    width: 100vh;
+    height: 79vh;
+    border: 2px;
+    border-radius: 46px;
+    border-style: solid;
+}
+
+input {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 2px;
+    height: 30px;
+}
+
+label {
+    font-size: larger;
+    font-family: 'Times New Roman';
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    color: #000000;
+    border: 2px;
+    border-radius: 30px;
+}
+
+
+/*Resultados de la calculadora*/
+
+#outPutCalculadora {
+    background-color: #ffffff;
+    display: none;
+    width: 100vh;
+    height: 79vh;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px;
+    border-radius: 46px;
+    border-style: solid;
+}
+
+#btnReiniciar {
+    background-color: #4f52e6;
+    width: 200px;
+    height: 80px;
+    font-size: 25px;
+}
+
+#btnCalcular {
+    margin-bottom: 3px;
+    background-color: #4f52e6;
+}
+
+#btnCalcular:hover {
+    background-color: #6567cf8e;
+    width: 120px;
+    height: 42px;
+    transition: 0.4s;
+}
+
+#btnReiniciar:hover {
+    transition: 0.4s;
+    background-color: #6567cf8e;
+}
